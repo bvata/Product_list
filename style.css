@@ -1,0 +1,101 @@
+body{
+    margin:0;
+    background-color: beige;
+    overflow: none;
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
+    color: brown;
+    font-family: cursive;
+}
+.items{
+    margin: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.post{
+    display: flex;
+    
+}
+.element{
+    border-radius: 30px;
+    margin: 0 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.4);
+    background-color: antiquewhite;
+    width: 250px;
+    height: 320px;
+}
+img{
+    margin: 0 25px;
+    width: 200px;
+    height: 200px;
+}
+.btn{
+    display: block;
+    margin: 15px 0;
+}
+
+input{
+    margin: 10px 0;
+}
+p{
+    text-align: center;
+}
+a{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.but{
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 120px;
+    border-radius: 20px;
+    box-shadow: 0 6px 8px rgba(101, 16, 16, 0.8);
+    border: solid rgb(100, 10, 10) 2px;
+    transition: background-color .4s,color .4s;
+    
+}
+
+.but a{
+    padding: 0 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(27, 27, 78);
+    transition: color .4s;
+
+}
+
+.but:hover{
+    background-color: rgb(179, 53, 53);
+    color: whitesmoke;
+}
+.but a:hover{
+    color: aliceblue;
+}
+.button{
+    margin: 5px 80px;
+    box-shadow: 0 0 4px rgba(0,0,0,.4);
+    border-radius: 5px;
+    border: 1px solid;
+    background-color: azure;
+}
+.button:hover{
+    background-color: blanchedalmond;
+    color: yellowgreen;
+}
+.delete:hover{
+    color:red;
+    border: 1px dotted darkblue;
+}

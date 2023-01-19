@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    background-color: azure;
+}
+
+h2{
+    text-align: center;
+
+}
+
+button{
+    margin: 20px 0;
+    display: block;
+}
+
+.create{
+    display: flex;
+    margin: 0 30px;
+}
